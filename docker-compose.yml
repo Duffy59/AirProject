@@ -1,0 +1,6 @@
+services:
+  air-project:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: air-project
